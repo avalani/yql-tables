@@ -11,6 +11,8 @@
       </urls>
       <inputs>
         <key id="appid" type="xs:string" private="true" default="AvalaniC-c084-4516-bd2e-b2078fb890ac" paramType="query"/>
+	<key id="call_name" type="xs:string" private="true" default="GetPriceResearch" paramType="query"/>
+	<key id="version" type="xs:string" private="true" default="2" paramType="query"/>
         <key id="QueryKeywords" type="xs:string" required="true" paramType="query"/>
       </inputs>
     </select>

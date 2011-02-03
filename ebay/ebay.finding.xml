@@ -5,7 +5,7 @@
     <documentationURL>http://developer.ebay.com</documentationURL>
   </meta>
   <bindings>
-    <select itemPath="SearchResponse" produces="XML">
+    <select itemPath="searchResult" produces="XML">
       <urls>
         <url>http://svcs.ebay.com/services/search/FindingService/v1</url>
       </urls>
